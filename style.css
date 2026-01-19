@@ -45,34 +45,39 @@
 .banner-button {
     background-color: #F15B22;
     padding: 20px 25px;
-    border: none;
+    
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
+
 
 }
-.footer-right .right-button{
- background: #FFFFFF;
-  color: #F15B22;
-  border-radius: 8px;
-
-}
-.banner-content .second-button{
+.banner-content .second-button {
+  padding: 21px 36px;
   background: #FFFFFF;
   color: #F15B22;
   border-radius: 5px;
   
 
 }
+.footer-button{
+    padding: 21px 36px;
+    background: #FFFFFF;
+    color: #F15B22;
+    border-radius: 8px;
+}
 .btn{
-  padding: 21px 36px;
+  
   border: none;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #0e98ed;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 #failure{
@@ -150,9 +155,7 @@
     align-items: center;
     text-align: center;
 }
-.plans-card  img{
-    margin-bottom: 24px;
-}
+
 .plans-content .plans-card  img{
     margin-bottom: 24px;
 }
@@ -165,7 +168,7 @@
 }
 .plans-content .plans-card p{
     font-size: 25px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #737272;
 }
 #second-banner{
@@ -240,7 +243,7 @@
 
 .footer-right{
   max-width: 325px;
-  padding: top 122px;
+  padding-top: 122px;
   padding-bottom: 250px;
 }
 
