@@ -75,7 +75,7 @@
   transition: all 0.3s ease;
 }
 .btn:hover {
-  background: #0e98ed;
+  background: #2ba4f0;
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
