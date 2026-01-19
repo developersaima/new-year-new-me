@@ -123,6 +123,15 @@
     
 
 }
+.plans-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.plans-card  img{
+    margin-bottom: 24px;
+}
 .plans-content .plans-card  img{
     margin-bottom: 24px;
 }
@@ -138,5 +147,42 @@
     font-weight: 500px;
     color: #737272;
 }
+#second-banner{
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+   background-image:  url("images/gradient2.png"),url("images/watch.png"); 
+   background-size: cover;
+   background-position: center center;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   padding: 59px;
+   margin-top: 130px;
+   
 
+}
 
+.banner-content{
+    text-align: left;
+    max-width: 459px;
+    
+}
+
+.banner-content h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color:#FFFFFF ;
+}
+
+.banner-content button{
+  padding: 10px 25px;
+  border: none;
+  background: white;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
