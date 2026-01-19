@@ -54,28 +54,27 @@
     cursor: pointer;
 
 }
-.footer-right button{
-  padding: 20px 36px;
-  border: none;
-  background: #FFFFFF;
+.footer-right .right-button{
+ background: #FFFFFF;
   color: #F15B22;
-  font-size: 20px;
-  font-weight: 600px;
   border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.banner-content button{
-  padding: 21px 36px;
-  border: none;
-  background: #FFFFFF;
-  color: #F15B22;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 5px;
-  cursor: pointer;
 
 }
+.banner-content .second-button{
+  background: #FFFFFF;
+  color: #F15B22;
+  border-radius: 5px;
+  
+
+}
+.btn{
+  padding: 21px 36px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 #failure{
     padding: 126px 0 135px 0;
 }
