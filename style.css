@@ -106,6 +106,37 @@
     color: #16D887; 
     font-weight: bold;
 }
+#plans .section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    
 
+}
+#plans .container .plans-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.plans-content .plans-card  img{
+    margin-bottom: 24px;
+}
+.plans-content .plans-card h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 16px;
+
+}
+.plans-content .plans-card p{
+    font-size: 25px;
+    font-weight: 500px;
+    color: #737272;
+}
 
 
